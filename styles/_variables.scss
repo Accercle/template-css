@@ -1,0 +1,29 @@
+@use 'helpers' as *;
+
+:root {
+    // Цвета
+    --color-name-color: ;
+
+    // Рамки
+    --border: ;
+
+    // Шрифты
+    --font-family-base: 'Inter', sans-serif;
+    --font-family-accent:  ;
+
+    // Размер макета
+    --container-width: ;//#{rem(1600)};  //Размер секции. Указывается, если они одинаковые. В ином случае, необходимо добавить ещё переменные
+    --container-padding-x: 43px; // Внутренние горизонтальные отступы (мобильная версия)
+    // --section-padding-y: // Внутренние отступы по вертикале. Нужно делить на 2, так как паддинг не схлопывается
+
+    // Поля ввода и кнопки
+    --input-hight: ;
+    --button-height: ;
+
+    // Переход
+    --transition-duration: 0.2s;
+
+    // @include laptop {
+    //     --container-width: ;//#{rem(1600)}; если сетка будет сильно меньше
+    // }
+}

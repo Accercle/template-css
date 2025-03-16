@@ -1,0 +1,23 @@
+{
+  "name": "template-css",
+  "version": "1.0.0",
+  "description": "Заготовки для верстки",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Accercle/template-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Accercle/template-css/issues"
+  },
+  "homepage": "https://github.com/Accercle/template-css#readme",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
